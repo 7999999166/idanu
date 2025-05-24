@@ -9,16 +9,16 @@ const config = {
 		adapter: adapter({
 				pages: 'build',
 				assets: 'build',
-				fallback: 'index.html',
+				fallback: 'index.html', // Enable SPA fallback
 				precompress: false,
 				strict: true
 			}),
 		prerender: {
 			entries: [
-				'/',
 				'/aboutUs',
 				'/contactUs'
-			]
+			],
+			crawl: false // Disable crawling to only prerender specified pages
 		}
 	}
 };
