@@ -17,8 +17,7 @@ const config = {
 			entries: [
 				'/aboutUs',
 				'/contactUs'
-			],
-			crawl: false // Disable crawling to only prerender specified pages
+			]
 		}
 	}
 };
