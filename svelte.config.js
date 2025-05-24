@@ -11,7 +11,8 @@ const config = {
 				assets: 'build',
 				fallback: 'index.html', 
 				precompress: false,
-				strict: false
+				strict: false,
+				trailingSlash: 'always'
 			}),
 			prerender: {
 				entries: [
