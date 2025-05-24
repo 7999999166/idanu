@@ -14,7 +14,13 @@ const config = {
 				precompress: false,
 				strict: true
 			  }
-		)
+		),
+		prerender: {
+			entries: [
+				'/aboutUs',
+				'/contactUs'
+			]
+		}
 	}
 };
 
