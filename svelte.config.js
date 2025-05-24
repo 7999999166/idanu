@@ -12,13 +12,7 @@ const config = {
 				fallback: 'index.html', // Enable SPA fallback
 				precompress: false,
 				strict: true
-			}),
-		prerender: {
-			entries: [
-				'/aboutUs',
-				'/contactUs'
-			]
-		}
+			})
 	}
 };
 
