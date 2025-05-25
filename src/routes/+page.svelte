@@ -8,10 +8,8 @@ function decrement(){
   }
 </script>
 <svelte:head>
-  <script src="/bootstrap.bundle.min.js"></script> 
-  <link rel="stylesheet" href="/bootstrap.min.css"> 
-  <link rel="stylesheet" href="/w3.css">  
-  <link rel="stylesheet" href="/bootstrap-icons.min.css">
+  <title>Svelte Home Page</title>
+  <meta name="description" content="Svelte Home Page">
 </svelte:head>
 <div>
    svelte Home Page 
