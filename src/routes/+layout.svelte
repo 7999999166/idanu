@@ -13,11 +13,11 @@
      </svelte:head>
      <div class="app">
           <div>
-               <a href="/">Home</a>
-               <a href="/aboutUs">About Us</a>
-               <a href="/contactUs">Contact Us</a>
-               <a href="/products">Products</a>
-               <a href="/productDetail">Product Detail</a>
+               <a style:text-decoration="none" href="/">Home</a>
+               <a style:text-decoration="none" href="/aboutUs">About Us</a>
+               <a style:text-decoration="none" href="/contactUs">Contact Us</a>
+               <a style:text-decoration="none" href="/products">Products</a>
+               <a style:text-decoration="none" href="/productDetail">Product Detail</a>
           </div>
 	
 	<main>
