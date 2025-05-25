@@ -7,9 +7,6 @@
        <script src="/axios.min.js"></script>
        <link rel="stylesheet" href="/sal.css">
        <script src="/sal.js"></script>
-       <link rel="stylesheet" href="/bootstrap.min.css"> 
-       <link rel="stylesheet" href="/w3.css">  
-       <link rel="stylesheet" href="/bootstrap-icons.min.css">
      </svelte:head>
      <div class="app">
           <div>
