@@ -3,11 +3,11 @@
   import {onMount} from "svelte";
   
 $effect(()=>{
-  if(window.location.pathname !== '/'){
-    myVal = 'true';
+  if(window.location.href === 'https://main--spa-ssg.netlify.app/'){
+    myVal = 'carousel';
   }
   else{
-    myVal = 'carousel';
+    myVal = 'true';
   }
   console.log(myVal);
 });
