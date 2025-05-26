@@ -7,10 +7,7 @@
     counter.info = counter.info - 1;
   }
 </script>
-<svelte:head>
-  <title>About Us Page</title>
-  <meta name="description" content="About Us Page">
-</svelte:head>
+
 <div>
    Hey i am about us page
    <button class="btn btn-primary" onclick={increment}>Increment</button>
