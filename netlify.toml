@@ -2,11 +2,13 @@
   from = "/aboutUs"
   to = "/aboutUs/index.html" 
   status = 200
+  force = true
 
 [[redirects]]
   from = "/contactUs"
   to = "/contactUs/index.html" 
   status = 200
+  force = true
 
 
 [[redirects]]
