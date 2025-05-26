@@ -8,8 +8,8 @@
   }
 </script>
 <svelte:head>
-  <title>Contact Us Page</title>
-  <meta name="description" content="Contact Us Page">
+  <title>About Us Page</title>
+  <meta name="description" content="About Us Page">
 </svelte:head>
 <div>
    Hey i am about us page
